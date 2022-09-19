@@ -83,7 +83,7 @@
 /* секция description */
 .description {
   padding-top: 100px;
-  width: 80%;  
+  width: 80%;
   margin: auto;
 }
 .two-columns {
@@ -116,7 +116,6 @@
   font-weight: 600;
 }
 
-
 /* секция digits */
 .digits {
   padding-bottom: 100px;
@@ -133,7 +132,7 @@
 }
 .section-subtitle {
   width: 60%;
-  margin: 20px auto 0px auto;;
+  margin: 20px auto 0px auto;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
@@ -235,7 +234,7 @@
   position: initial;
 }
 .footer__column_content_copyright {
-  flex-basis: 711px
+  flex-basis: 711px;
 }
 .footer__author {
   position: absolute;
@@ -250,7 +249,7 @@
   margin-bottom: 16px;
 }
 .column-links__link {
-  color: #fff; 
+  color: #fff;
   text-decoration: none;
 }
 .footer__social-icon {
