@@ -259,12 +259,8 @@
   margin-bottom: 0;
 }
 
-.table__cell_theme_dark:nth-child(5) {
+.table__cell_theme_dark:nth-child(n+5) {  
   margin-top: 80px;
-}
-
-.table__cell_theme_dark:nth-child(n+6) {  
-  margin-top: 60px;
 }
 
 .kaufman__triangle {
