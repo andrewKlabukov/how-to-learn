@@ -151,7 +151,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   width: 1100px;
-  margin: 0 auto;  
+  margin: 0 auto;
   z-index: 10;
 }
 
@@ -196,7 +196,7 @@
   max-width: 648px;
   width: 60%;
   margin: 0 auto;
-  text-align: center; 
+  text-align: center;
   padding-top: 100px;
   z-index: 10;
 }
@@ -301,7 +301,7 @@
 .footer__author {  
   line-height: 25px;
   font-size: 18px;
-  font-weight: 400;  
+  font-weight: 400;
   margin: 18px 0;
 }
 
@@ -320,7 +320,7 @@
 
 .footer__column-link {
   color: #fff;
-  text-decoration: none;  
+  text-decoration: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
