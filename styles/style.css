@@ -55,6 +55,7 @@
 .header__link {
   color:  #2f80ed;
   text-decoration: none;
+  transition: linear .5s;
 }
 
 .header__main-illustration {
@@ -218,6 +219,12 @@
   font-weight: 400;
   text-decoration: none;
   color: #2f80ed;
+  transition: linear .5s;
+}
+
+.feynman__link:hover {
+  opacity: .3;
+  transition: linear .3s;
 }
 
 /* секция kaufman */
@@ -350,7 +357,7 @@
   width: 240px;
 }
 
-.cards_image {
+.cards__image {
   width: 160px;
   height: 160px;
   border-radius: 50%;
@@ -377,7 +384,8 @@
   display: flex;
   justify-content: center;
   position: relative;
-  top: 30px;
+  top: 40px;
+  padding-top: 10px;
 }
 
 .video__iframe {
@@ -405,7 +413,7 @@
 
 
 .oakley {
-  padding-top: 100px;
+  padding-top: 160px;
   width: 80%;
   margin: 0 auto;
   background-color: #f2f2f2;  
@@ -434,31 +442,45 @@
   margin: 80px 0 217px;
 }
 
+.khan {
+background-color: #f2f2f2;
+padding-top: 105px;
+}
+
 .khan__container {
   width: 80%;
     margin: auto;
 }
 
 .khan__book-container {
-  display: flex;
+  position: relative;
 }
 
 .khan__book-pic {
   background-image: url(../images/khan-book.jpg);
   height: 608px;
   width: 620px;
+  margin-right: 48px;  
 }
 
-.khan__buy-link {
-  margin-left: 48px;
+.khan__buy-link {  
   line-height: 1.2;
   font-size: 18px;
   font-weight: 400;
   color: #2f80ed;
-  text-decoration: none;
+  text-decoration: none;  
+  transition: linear .5s;
+  position: absolute;
+  top: 0;
+  left: 668px;
 }
 
-.khan_author {
+.khan__buy-link:hover {
+  opacity: .3;
+  transition: linear .3s;
+}
+
+.khan__author {
   line-height: 42px;
   font-size: 30px;
   font-weight: 400;
@@ -503,3 +525,16 @@
   padding-bottom: 68px;
 }
 
+
+
+
+
+.header__link:hover {
+  opacity: .5;
+  transition: linear .3s;
+}
+
+/* .header__link:not( :hover ) {
+  opacity: 1;
+  transition: linear .5s;
+} */
