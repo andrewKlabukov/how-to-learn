@@ -1,0 +1,10 @@
+.resources__link {
+  height: 38px;
+  width: 270px;
+  transition: linear .5s;
+}
+
+.resources__link:hover {
+  opacity: .3;
+  transition: linear .3s;
+}
