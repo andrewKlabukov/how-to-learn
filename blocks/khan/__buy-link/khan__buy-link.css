@@ -4,10 +4,7 @@
   font-weight: 400;
   color: #2f80ed;
   text-decoration: none;
-  transition: linear .5s;
-  position: absolute;
-  top: 0;
-  left: 668px;
+  transition: linear .5s; 
 }
 
 
